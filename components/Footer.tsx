@@ -1,34 +1,28 @@
+/*
+ * :file description: 
+ * :name: /youjia/components/Footer.tsx
+ * :author: 张德志
+ * :copyright: (c) 2023, Tungee
+ * :date created: 2023-08-15 12:36:38
+ * :last editor: 张德志
+ * :date last edited: 2023-08-15 22:05:20
+ */
 
 export default function Footer() {
   return (
-    <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3 border-gray-500">
-      <div className="text-gray-500">
-        Powered by{" "}
+    <footer style={{textAlign:'center',padding:'10px 0px'}} className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t   border-gray-500">
+      <div  className="text-gray-300">
+     
         <a
           href="https://replicate.com/"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
+          style={{textAlign:'center'}}
+          className="hover:underline transition hover:text-gray-200"
         >
-          Replicate,{" "}
+         CopyRight@2019-2023 晓智科技 黔ICP备20000421号-2
         </a>
-        <a
-          href="https://upload.io"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
-        >
-          Upload,{" "}
-        </a>
-        and{" "}
-        <a
-          href="https://vercel.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
-        >
-          Vercel.
-        </a>
+       
       </div>
     </footer>
   );

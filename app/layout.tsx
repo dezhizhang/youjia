@@ -5,16 +5,16 @@
  * :copyright: (c) 2023, Tungee
  * :date created: 2023-08-15 12:36:38
  * :last editor: 张德志
- * :date last edited: 2023-08-15 20:35:29
+ * :date last edited: 2023-08-15 21:59:33
  */
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
 let title = "有家";
-let description = "Generate your dream room in seconds.";
+let description = "生成您的梦想房间 in seconds.";
 let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
-let sitename = "roomGPT.io";
+let sitename = "http://youjia.xiaozhi.shop/";
 
 export const metadata: Metadata = {
   title,
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     images: [ogimage],
     title,
     description,
-    url: "https://roomgpt-demo.vercel.app",
+    url: "http://youjia.xiaozhi.shop/",
     siteName: sitename,
-    locale: "en_US",
+    locale: "zh_CN",
     type: "website",
   },
   twitter: {

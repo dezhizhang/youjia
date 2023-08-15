@@ -5,7 +5,7 @@
  * :copyright: (c) 2023, Tungee
  * :date created: 2023-08-15 12:36:38
  * :last editor: 张德志
- * :date last edited: 2023-08-15 20:56:09
+ * :date last edited: 2023-08-15 21:56:09
  */
 "use client";
 
@@ -16,7 +16,6 @@ import { UploadDropzone } from "react-uploader";
 import { Uploader } from "uploader";
 import { CompareSlider } from "../../components/CompareSlider";
 import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 import LoadingDots from "../../components/LoadingDots";
 import ResizablePanel from "../../components/ResizablePanel";
 import Toggle from "../../components/Toggle";
@@ -104,10 +103,9 @@ export default function DreamPage() {
 
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
-      <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-blue-600">dream</span> room
+        生成您的 <span className="text-blue-600">梦想</span> 房间
         </h1>
         <ResizablePanel>
           <AnimatePresence mode="wait">
@@ -202,7 +200,7 @@ export default function DreamPage() {
               {restoredImage && originalPhoto && !sideBySide && (
                 <div className="flex sm:space-x-4 sm:flex-row flex-col">
                   <div>
-                    <h2 className="mb-1 font-medium text-lg">Original Room</h2>
+                    <h2 className="mb-1 font-medium text-lg">原房间</h2>
                     <Image
                       alt="original photo"
                       src={originalPhoto}
@@ -212,7 +210,7 @@ export default function DreamPage() {
                     />
                   </div>
                   <div className="sm:mt-0 mt-8">
-                    <h2 className="mb-1 font-medium text-lg">Generated Room</h2>
+                    <h2 className="mb-1 font-medium text-lg">生成的房间</h2>
                     <a href={restoredImage} target="_blank" rel="noreferrer">
                       <Image
                         alt="restored photo"
