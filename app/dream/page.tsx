@@ -5,7 +5,7 @@
  * :copyright: (c) 2023, Tungee
  * :date created: 2023-08-15 12:36:38
  * :last editor: 张德志
- * :date last edited: 2023-08-15 19:39:25
+ * :date last edited: 2023-08-15 20:56:09
  */
 "use client";
 
@@ -143,7 +143,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                       选择房间类型
+                        选择房间类型
                       </p>
                     </div>
                     <DropDown
@@ -174,9 +174,8 @@ export default function DreamPage() {
                 </div>
               )}
               <div
-                className={`${
-                  restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
-                }`}
+                className={`${restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
+                  }`}
               >
                 <Toggle
                   className={`${restoredLoaded ? "visible mb-6" : "invisible"}`}
@@ -256,7 +255,7 @@ export default function DreamPage() {
                     }}
                     className="bg-blue-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-blue-500/80 transition"
                   >
-                    Generate New Room
+                    生成新房间
                   </button>
                 )}
                 {restoredLoaded && (
@@ -269,7 +268,7 @@ export default function DreamPage() {
                     }}
                     className="bg-white rounded-full text-black border font-medium px-4 py-2 mt-8 hover:bg-gray-100 transition"
                   >
-                    Download Generated Room
+                    下载生成房间
                   </button>
                 )}
               </div>
