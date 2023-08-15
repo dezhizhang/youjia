@@ -1,3 +1,12 @@
+/*
+ * :file description: 
+ * :name: /youjia/app/dream/page.tsx
+ * :author: 张德志
+ * :copyright: (c) 2023, Tungee
+ * :date created: 2023-08-15 12:36:38
+ * :last editor: 张德志
+ * :date last edited: 2023-08-15 19:39:25
+ */
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
@@ -114,7 +123,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room theme.
+                        选择房间主题
                       </p>
                     </div>
                     <DropDown
@@ -134,7 +143,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room type.
+                       选择房间类型
                       </p>
                     </div>
                     <DropDown
@@ -152,7 +161,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Upload a picture of your room.
+                        上传房间图片
                       </p>
                     </div>
                   </div>
